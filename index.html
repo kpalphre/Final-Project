@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en" dir="ltr"><head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Page Title</title>
+</head><body><div class="container" id="bsr-wrapper">
+    <h1>Project ID #11: Analyzing Wages Over Time</h1><div class='my-5'></div>
+    <h2>Project Topic & Exploration Questions</h2>
+    <p>Project Topic:
+        <li>In this project, we will evaluate data about wages over time separated by education level and gender. Through the various visualizations we assembled, we uncovered many interesting findings.</li></p>
+    <p> Exploration Questions:
+        <li>What year had the highest median hourly wage?</li>
+        <li>What year had the lowest median hourly wage?</li>
+        <li>What is the percent difference between high school and college salaries over each year?</li>
+        <li>Compare the wage gap between men and women within each educational group and analyze how it has changed over the years?</li>
+        <li>Investigate whether the wage gap has been narrowing or widening for different genders?</li>
+        <li>How do economic trends influenced the wage gap?</li></p><div class='my-5'></div>
+    <h2>Data Sources</h2>
+    <p>Data Sources:
+        <li><a href="https://www.kaggle.com/datasets/asaniczka/usa-wage-comparison-for-college-vs-high-school/data">Comparative Unemployment Data: kaggle</a></li>
+        <li><a href="https://www.macrotrends.net/countries/USA/united-states/unemployment-rate">Overall US Unemployment Rate: Macrotrends</a></li>
+    </p>
+    <h2>Data Journey & Caveats</h2>
+    <p>
+        <li>We were interested in looking at wages over time and how they evolved for different groups. We found a dataset from kaggle that compared high school graduates vs. college graduates and men vs. women.</li>
+        <li>The kaggle data was really useful, as we could compare data sources across groups over time and were able to devise multiple insights.</li>
+        <li>However, we wanted to add some additional data to provide more context. For this, we turned to Macrotrends, which provided the United States' overall unemployment rate.</li>
+        <li>This allowed us to view the data with a more comprehensive view by broader macroeconomic dynamics into account.</li>
+    </p><div class='my-5'></div>
+        
+    <h2>About the Project Members</h2><div class="row"><div class="col-sm-6 col-md-4"><div class="card text-center">
+        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="..."><div class="card-body "> Kevin Palphreyman: Senior double majoring in Economics and History. From Stanford Hall on campus and originally from Summit, NJ. <p class="mt-3 text-center">
+        <a type="button" href = "https://www.linkedin.com/in/kevin-palphreyman-665466200/" class="btn btn-primary text-dark">LinkedIn Profile</a></p></div></div></div><div class="col-sm-6 col-md-4"><div class="card text-center">
+        <img src="https://media.licdn.com/dms/image/C4D03AQFLhFgCWi41zg/profile-displayphoto-shrink_800_800/0/1643116403382?e=2147483647&v=beta&t=aBatHiBQVj-ksk7iBL8qZQ5PZbcI9PcyTtBmAKm6aVI" class="card-img-top" alt="..."><div class="card-body "> Campbell Officer: Freshman majoring in Economics. From Stanford Hall on campus and originally from Greenwich, Connecticut. <p class="mt-3 text-center">
+        <a type="button" href = "https://www.linkedin.com/in/campbell-officer-0757b2206/" class="btn btn-primary text-dark"> LinkedIn Profile</a></p></div></div></div></div><div class='my-5'></div>
+
+    <h2>Visualization 1: Comparing Wages over Time ($)</h2><div class="row"><div class="col">
+        <div class="row">
+            <iframe src="figure1.html"
+               height="700" width="1000"
+               frameBorder="0"></iframe>
+         </div>
+            <p>Insights:
+                <li>One interesting insight to takeaway was that between the three data points for each sector of education, they all share similar slopes. Between mens, womens, and average college wage data, each has very similar progressions in growth. Additionally, the same trend is noticeable among high school data points.</li>
+                <li>There has been considerable growth in the average wage among bachelor-degree employees. We think that the reason for the increase in wages for bachelor's degrees has to do with the higher demand for such employees given the expanded role of technology throughout all industries.</li>
+                <li>One interesting takeaway was looking at the intersections of the lines around 1984. Up until this point, men's high school wages were higher than women's bachelor's degree and this was the first time in US history that women overtook them despite already having a higher education level.</li>
+            </p>
+        </div></div><div class='my-5'></div>
+
+
+    <h2>Summary Statistics ($)</h2><table class="table table-striped table-bordered">
+        <thead class="thead-dark"><tr><th scope="col">Type</th><th scope="col">Minimum</th><th scope="col">Maximum</th><th scope="col">Mean</th></tr></thead>
+        <tbody><tr><th scope="row">High School Graduates</th><td>$19.62</td><td>$22.70</td><td>$20.81</td></tr>
+        <tr><th scope="row">College Graduates</th><td>$31.87</td><td>$41.65</td><td>$36.43</td></tr>
+        <tr><th scope="row">Male High School Graduates</th><td>$22.11</td><td>$25.09</td><td>$23.18</td></tr>
+        <tr><th scope="row">Male College Graduates</th><td>$36.36</td><td>$48.15</td><td>$41.59</td></tr>
+        <tr><th scope="row">Female High School Graduates</th><td>$16.88</td><td>$19.36</td><td>$18.02</td></tr>
+        <tr><th scope="row">Female College Graduates</th><td>$26.92</td><td>$35.41</td><td>$31.24</td></tr>
+        </tbody></table> 
+        <p>Above are statistics about the data set. Keep in mind that the wage data is adjusted for inflation.
+            <li>Generally, college graduates tended to have higher wages than high school graduates, both on average and in terms of minimum and maximum.</li>
+            <li>In addition, men tended to have higher wages than women even after comparing equivalent education levels.</li>
+            <li>The lowest wage of $16.88 belonged to female high school graduates, while the maxmium wage of $48.15 was in male college graduates.</li>
+            <li>Similarly, the lowest mean of $18.02 was female high school graduates and the highest mean of $41.59 was male college graduates.</li>
+        </p><div class='my-5'></div>
+
+    <h2>Visualization 2: Funnel of Bachelors Degree Wages over Time by Gender ($)</h2><div class="row"><div class="col-md-9">
+        <div class="row">
+            <iframe src="figure2.html"
+               height="700" width="1000"
+               frameBorder="0"></iframe>
+         </div>
+            <p>Insights:
+                <li>Women's Bachelor's Degree wages rose by 37.59% over the course of these intervals whereas Men's Bachelor's Degree wages rose by 26.9%. This means that each of them was compensated equally in the raises but the wage gap was not altered.</li>
+                <li>In picking an interval of 12 years to have an equal amount of time for the 5 stages of data analysis we did notice that both Men's and Women's wages went down in the specific year of 1985 compared to 1973.</li>
+                <li>One of the interesting insights looking at this graph is from the Men's side which shows that men's wages seemed to be relatively stagnant between 1973-1997 before significantly increasing in the 21st century. Of course, these are just singular data points but it does beg the question why they saw such significant increases more recently.</li>
+            </p>
+        </div></div><div class='my-5'></div>
+
+    <h2>Visualization 3: Difference in Men's and Women's Wages Over Time ($)</h2><div class="row"><div class="col">
+        <div class="row">
+            <iframe src="figure3.html"
+                height="700" width="1000"
+               frameBorder="0"></iframe>
+        </div>
+            <p>Insights:
+            <li>Between the first value in 1973 ($22.12) and the most recent data point ($19.77), the overall change in the gap was -10.62%. However, since 2014, the gap has increased by 59.83% so we may be moving in a direction of inequality.</li>
+            <li>The overall trend of consistent expansion of the gap between Men's and Women's bachelor's degrees wages shows that it can fluctuate and alter year to year depending on various factors.</li>
+            <li>1973 was the largest gap between the two groups wages at an astonishing $22.12 despite receiving the same education.</li>
+            </p>
+        </div></div><div class='my-5'></div>
+
+    <h2>Visualization 4: Difference in High School Graduate's and College Graduate's Wages Over Time ($)</h2><div class="row"><div class="col">
+        <div class="row">
+            <iframe src="figure4.html"
+               height="700" width="1000"
+               frameBorder="0"></iframe>
+         </div>
+            <p>Insights:
+                <li>This graph shows the wage gap between High School and Bachelors average hourly wages between the time period of 1973-2022. This graph shows that the gap has grown considerably and consistently since 1973. </li>
+                <li>Between the first value in 1973 ($10.58) and the most recent data point ($19.66), the overall growth of the gap was 85.82%.</li>
+                <li>The overall trend of consistent expansion of the gap between High School and Bachelor's Degrees shows that it can vary weather economic conditions and we should expect to see this gap continue to grow over the next few decades.</li>
+            </p>
+        </div></div><div class='my-5'></div>
+        
+        
+    <h2>Visualization 5: Dynamic Wage Bar Graph Over Time</h2><div class="row"><div class="col">
+        <div class="row">
+            <iframe src="figure5.html"
+               height="700" width="1000"
+               frameBorder="0"></iframe>
+         </div>
+            <p>Insights:
+                <li>We selected 1991 as a time frame as an alternative time frame because this was when the gender gap had its lowest data points. Since then, one can watch the progression to see men's wages begin to grow slightly further apart than women's as we get closer to the modern day.</li>
+                <li>This animated visualization puts into perspective the change that takes place among different sectors. While the line graph displays that the slopes of each sector vary slightly, this visual does help show that each of them responds similarly as each goes down/up roughly together.</li>
+            </p>
+        </div></div><div class='my-5'></div>
+
+    <h2>Visualization 6: High School and College Wages vs. Unemployment Rate Over Time</h2><div class="row"><div class="col">
+        <div class="row">
+            <iframe src="figure6.html"
+               height="700" width="1200"
+               frameBorder="0"></iframe>
+         </div>
+            <p><p>Insights:
+                <li>One data insight we did not expect to see was that in 2009 when the US had its highest unemployment rate over the course of the time period, both high school and bachelor's wages slightly rose then the year prior.</li>
+                <li>Despite appearing a little volatile, overall the unemployment rate decreased slightly while the wages rose, meaning there is an inverse relationship between the two.</li>
+                <li>The year unemployment rate was at its lowest of 3.61 in 2021, both high school and bachelor's wages were close to their highest.</li>
+            </p>
+            </div></div><div class='my-5'></div>
+
+    <h2>Visualization 7: Wages Over Time Compared by Group through Dot Plotting ($)</h2><div class="row"><div class="col">
+        <div class="row">
+            <iframe src="figure7.html"
+               height="700" width="1000"
+               frameBorder="0"></iframe>
+        </div>
+            <p>Insights:
+                <li>We also decided to plot this data over time with a dot plot. Each year on the y axis has an associated dot on the x axis with the wages of a particular group. One insight is how high school wages stayed approximately constant, and even decreased over time. Despite technology improvements, wages out of college have not increased, indicating less job opportunities.</li>
+                <li>Another major change is in women's wages, specifically with a bachelor's degree. This increased significantly and actually passed male high school graduates in 1984 for third highest.</li>
+                <li>College degrees are also an important factor in determining wages. All three groups with degrees increased sizeably, showing that high skill jobs requiring degrees have become more coveted.</li>
+            </p>
+            </div></div><div class='my-5'></div>
+
+    <h2>Python Demo Video</h2><div class="row"><div class="col"><div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/C7NW0M_YrHY?si=MnAX-vkSg_KqiNp6" allow="web-share" allowfullscreen></iframe></div></div><div class="col-md-6">
+        <p> Attached is a video about our Python code used to make the visuals for this website. </p></div></div><div class='my-5'></div>
+    <h2>Website Demo Video</h2><div class="row"><div class="col"><div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bcFUiNHiNUc?si=v8f4XfpnBD2tCJOl" allow="web-share" allowfullscreen></iframe></div></div><div class="col-md-6">
+        <p> Attached is a video walking through our website. </p></div></div><div class='my-5'></div>
+    <h2>Learning and Conclusions</h2>
+        <p>
+            <li>Overall, through our data we learned about how wages have changed over time and how certain groups have been more effected than others.</li>
+            <li>We identified that a college degree significantly increases wages. This is due to a greater amount of jobs requiring high-level skills as technology has become more widespread. For example, computer programming and data science have created lots of high paying jobs.</li>
+            <li>We also saw the gender pay gap decrease over time, although in recent years there has been a slight spike.</li>
+            <li>Wage changes are also not necessarily correlated with unemployment in the long run, with wages generally increasing over time, especially for the highly educated.</li>
+            <li>This project has made us realize the importance of providing equality and accessible opportunities. Examining wage gaps helps us understand where inequality lies and enables us to discuss real, data-grounded solutions.</li>
+        </p></div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="js/main.js"></script></body>
+</html>
